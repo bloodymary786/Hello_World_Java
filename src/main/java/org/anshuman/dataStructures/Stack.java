@@ -19,7 +19,7 @@ public class Stack<T> {
         size++;
     }
 
-    public Node<T> remove(){
+    public Node<T> pop(){
         if(head==null){
             System.out.println("Stack is Empty MF");
             return null;
