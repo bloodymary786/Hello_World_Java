@@ -32,6 +32,7 @@ public class Stack<T> {
         System.out.println("Removed " + current.data);
         temp = current.next;
         current.next = null;
+        size--;
         return temp;
     }
 
